@@ -1,13 +1,14 @@
 package com.gelostech.pageradapter;
 
 import android.content.Context;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 
 public class PagerAdapter extends FragmentPagerAdapter {
 
@@ -15,7 +16,7 @@ public class PagerAdapter extends FragmentPagerAdapter {
     List<String> titles = new ArrayList<>();
     Context context;
 
-    public PagerAdapter(FragmentManager fm,Context context) {
+    public PagerAdapter(FragmentManager fm, Context context) {
         super(fm);
         this.context = context;
     }
