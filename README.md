@@ -61,6 +61,14 @@ To remove a fragment and it's title, call the remove function with the respectiv
     adapter.removeFragment(1)
 ```
 
+Set it to your ViewPager
+```
+    // Kotlin
+    viewPager.adapter = adapter
+
+    // Java
+    viewPager.setAdapter(adapter)
+```
 
 ### License
 ```
